@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lobster&display=swap');
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  } */
+  
+/* 
+.hello{
+
+
+
+   
+    /* background-image: url('https://th.bing.com/th/id/R.cde89903773f3f6267663fa112c8b638?rik=DI6SpgsVjL7ofw&pid=ImgRaw'); */
+
+    /* content: "";
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/31/58/alphabet-background-vector-553158.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.05;
+    justify-content: center;
+} */ 
+
+
+.bg {
+    position: fixed; 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    /* align-items: center; */
+    
+  }
+  
+  .hello::before {    
+      content: "";
+      background-image: url(https://cdn4.vectorstock.com/i/1000x1000/31/58/alphabet-background-vector-553158.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.05;
+  }
+.hello_con{
+height: 40vh;
+margin: 2% auto ;
+padding-left: 30%;
+
+}
+.img_con{
+    width:50%;
+}
+.get{
+        width: 100%;
+        text-align: center;
+       color: #29323a;
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-shadow:1px 1px rgb(255, 79, 123);
+        font-family: 'Lobster';
+    
+}
+
+.form_con{
+
+    height: auto;
+    width:100vw;
+    
+}
+.two_things{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.charac{
+    width: 30% !important;
+    
+}
+.charac img{
+    margin-left: 5% !important;
+}
+
+/* .charac img{
+    width: 100%;
+} */
+.contact_form{
+    width: 70% !important;
+    height: 100%;
+    margin: 1% auto;
+    /* padding:0.1% auto; */
+    display: flex;
+    flex-wrap: wrap;
+
+
+    position: relative;
+    z-index: 1000;
+   
+   
+    /* padding: 20px; */
+    background: rgba(93, 238, 36, 0.1);
+    box-shadow: 0 25px 45px rgba(255,255,255,0.1);
+    border:1px solid rgba(255, 255, 255, 0.25);
+    border-right:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    /* overflow: hidden; */
+    backdrop-filter: blur(20px);
+    
+
+
+
+}
+
+/* 
+.waves{
+    padding-top:20%;
+} */
+
+.hello::after{
+    content: "";
+    position: relative;
+    margin-bottom: 5%;
+   
+    margin-left:15%;
+    width:250px;
+    height: 250px;
+    background: hsla(141, 81%, 87%, 1);
+
+    background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, rgb(99, 141, 114) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1 );
+    border-radius: 50%;
+    transform: translate(400px,180px);
+}
+
+
+.contact_form .row100 .col .inputBox{
+    position: relative;
+    width:50%;
+    height:40px;
+    color: #181d5e;
+    text-shadow:2px 2px rgb(246, 248, 110);
+   
+}
+
+.contact_form .row100 .col .inputBox input,
+.contact_form .row100 .col .inputBox textarea
+{
+    position: absolute;
+    width: 500%;
+    height:90%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline:none;
+    font-size:15px;
+    padding:0 10px;
+    z-index:1;
+    color:  #395266;
+    
+    
+}
+.contact_form .row100 .col .inputBox .text{
+    position: absolute;
+    top:0;
+    left:0;
+    line-height: 40px;
+    font-size: 24px;
+    padding:0 10px;
+    display:block;
+    transition: 0.5s;
+    pointer-events: none;
+    font-family: 'Lobster';
+}
+.contact_form .row100 .col .inputBox input:focus + .text,
+.contact_form .row100 .col .inputBox input:valid + .text,
+.contact_form .row100 .col .inputBox textarea:focus + .text,
+.contact_form .row100 .col .inputBox textarea:valid + .text
+{
+
+
+    top:-35px;
+    left:-10px;
+}
+
+
+.contact_form .row100 .col .inputBox .line{
+    position: absolute;
+    bottom:0;
+    display: inline-block;
+    width: 100%;
+    height:2px;
+    background: rgb(236, 134, 0);
+    transition: 0.5s ;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+
+.contact_form .row100 .col .inputBox input:focus ~ .line,
+.contact_form .row100 .col .inputBox input:valid ~ .line{
+
+
+    height:90%;
+
+
+}
+.contact_form .row100 .col .inputBox.textarea{
+    position: relative;
+    width:50%;
+    height:90px;
+    padding: 10px 0;
+}
+.contact_form .row100 .col .inputBox textarea:focus ~ .line,
+.contact_form .row100 .col .inputBox textarea:valid ~ .line{
+
+
+    height:90%;
+
+
+}
+
+.contact_form .row100 .col  input[type="submit"]{
+
+  margin-top:3px;
+    border:none;
+    padding:7px 30px;
+    text-shadow:2px 2px rgb(255, 255, 255);
+    cursor: pointer;
+    outline: rgb(240, 14, 119);
+    background: rgb(255, 250, 252);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color:rgb(240, 13, 89);
+    font-weight: 550;
+    font-family: Lobster;
+    font-size: 21px;
+    border-radius: 2px;
+}
+
+
+
+.insider{
+    width: 100%;
+    padding-left:10%;
+    display: inline-block;
+}
+
+/* @media screen and (max-width: 680px)
+{
+
+
+    .two_things{
+        display: block;
+        
+
+    }
+    .contact_form{
+        width: 100%;
+        display: block;
+        overflow: visible;
+    }
+    .insider{
+        display: block;
+        overflow: visible;
+    }
+} */
+/* 
+.img_con{
+    opacity: 1.5;
+    
+
+} */
+
+
+
+
+/* .waves{
+  padding-top: 35%;
+} */
+
+
+svg path{
+    margin-bottom:40% !important;
+}
+svg path{
+   
+    animation:pathAnim 7s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  svg path:nth-child(2){
+    animation-delay: 1s
+  }
+  svg path:nth-child(3){
+    animation-delay: 3s
+  }
+  svg path:nth-child(4){
+    animation-play-state: paused;
+  }
+  
+  @keyframes pathAnim{
+    0%{
+      d: path("M0,192	C220,100,440,100,660,192 C880,290,1100,290,1320,192	L1320 500 L0 500");
+    }
+    25%{
+      d: path("M0,100	C220,100,440,292,660,292 C880,292,1100,100,1320,100	L1320 500 L0 500");
+    }
+    50%{
+      d: path("M0,192	C220,290,440,290,660,192 C880,100,1100,100,1320,192	L1320 500 L0 500");
+    }
+    75%{
+      d: path("M0,292	C220,292,440,100,660,100 C880,100,1100,292,1320,292	L1320 500 L0 500");
+    }
+    100%{
+      d: path("M0,192	C220,100,440,100,660,192 C880,290,1100,290,1320,192	L1320 500 L0 500");
+    }
+  
+  }
+
+  /* @media screen and (max-width: 980px){
+.wave{
+    padding-top:35% !important;
+}
+
+  } */
+@media screen and (max-width: 680px){
+    .bg{
+        position: fixed; 
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
+        /* flex-wrap: wrap;
+        flex-direction: column; */
+        /* align-items: center; */
+        
+      }
+      
+      .hello::before {    
+          content: "";
+          background-image: url(https://cdn4.vectorstock.com/i/1000x1000/31/58/alphabet-background-vector-553158.jpg);
+          background-size: cover;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          bottom: 0px;
+          left: 0px;
+          opacity: 0.05;
+      }
+    .hello_con{
+    height: 40vh;
+    margin: 2% auto;
+    
+    }
+    
+    .form_con{
+    
+        height: auto;
+        width:100vw;
+        
+    }
+    .two_things{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    
+    .charac{
+        width: 30% !important;
+    }
+    .contact_form{
+        width: 70% !important;
+        height: 100%;
+        margin: 1% auto;
+        /* padding:0.1% auto; */
+        display: flex;
+        flex-wrap: wrap;
+    
+    
+        position: relative;
+        z-index: 1000;
+       
+       
+        /* padding: 20px; */
+        background: rgba(22, 158, 74, 0.1);
+        box-shadow: 0 25px 45px rgba(255,255,255,0.1);
+        border:1px solid rgba(255,255,255,0.25);
+        border-right:1px solid rgba(255,255,255,0.1);
+        border-bottom:1px solid rgba(255,255,255,0.1);
+        border-radius: 20px;
+        /* overflow: hidden; */
+        backdrop-filter: blur(20px);
+    
+    
+    
+    }
+    
+    
+    /* .hello::after{
+        content: "";
+        position: absolute;
+        margin-bottom: 5%;
+        margin-left:25%;
+        width:250px;
+        height: 250px;
+        background: hsla(141, 81%, 87%, 1);
+    
+        background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+        
+        background: -moz-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+        
+        background: -webkit-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+        
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1 );
+        border-radius: 50%;
+        transform: translate(400px,180px);
+    } */
+    
+    .contact_form .row100 .col .inputBox{
+        position: relative;
+        width:50%;
+        height:40px;
+        color: #395266;
+        text-shadow:1px 1px rgb(248, 204, 110);
+    }
+    
+    .contact_form .row100 .col .inputBox input,
+    .contact_form .row100 .col .inputBox textarea
+    {
+        position: absolute;
+        width: 500%;
+        height:90%;
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        outline:none;
+        font-size:15px;
+        padding:0 10px;
+        z-index:1;
+        color:  #395266;
+        
+    }
+    .contact_form .row100 .col .inputBox .text{
+        position: absolute;
+        top:0;
+        left:0;
+        line-height: 40px;
+        font-size: 24px;
+        padding:0 10px;
+        display:block;
+        transition: 0.5s;
+        pointer-events: none;
+    }
+    .contact_form .row100 .col .inputBox input:focus + .text,
+    .contact_form .row100 .col .inputBox input:valid + .text,
+    .contact_form .row100 .col .inputBox textarea:focus + .text,
+    .contact_form .row100 .col .inputBox textarea:valid + .text
+    {
+    
+    
+        top:-35px;
+        left:-10px;
+    }
+    
+    
+    .contact_form .row100 .col .inputBox .line{
+        position: absolute;
+        bottom:0;
+        display: inline-block;
+        width: 100%;
+        height:2px;
+        background: rgb(195, 228, 238);
+        transition: 0.5s ;
+        border-radius: 2px;
+        pointer-events: none;
+    }
+    
+    
+    .contact_form .row100 .col .inputBox input:focus ~ .line,
+    .contact_form .row100 .col .inputBox input:valid ~ .line{
+    
+    
+        height:90%;
+    
+    
+    }
+    .contact_form .row100 .col .inputBox.textarea{
+        position: relative;
+        width:50%;
+        height:90px;
+        padding: 10px 0;
+    }
+    .contact_form .row100 .col .inputBox textarea:focus ~ .line,
+    .contact_form .row100 .col .inputBox textarea:valid ~ .line{
+    
+    
+        height:90%;
+    
+    
+    }
+    
+    .contact_form .row100 .col  input[type="submit"]{
+    
+      margin-top:3px;
+        border:none;
+        padding:7px 30px;
+        text-shadow:2px 2px white;
+        cursor: pointer;
+        outline: rgb(25, 81, 88);
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        color:rgb(45, 86, 119);
+        font-weight: 600;
+        font-size: 21px;
+        border-radius: 2px;
+    }
+    
+    
+    
+    .insider{
+        width: 100%;
+        padding-left:10%;
+        display: inline-block;
+    }
+    .waves{
+        padding-top: 25% !important;
+      }
+      
+}

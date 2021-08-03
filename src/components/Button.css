@@ -1,0 +1,22 @@
+
+
+.bg {
+  position: fixed; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg::before {    
+    content: "";
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/31/58/alphabet-background-vector-553158.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.05;
+}

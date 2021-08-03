@@ -28,16 +28,17 @@ function App() {
                 <Switch>
                 <Route path="/" exact component = {Home} />
                 {/* <Route path="/sign-up" exact component = {SignUp} /> */}
-                 <Route exact path='/dashboard' component={PortalPage}/>
-                <Route exact path='/dashboard/:id' component={PortalPage}/> 
+                 <Route exact path='/dashboard/:id' component={Dashboard}/>
+                {/* <Route exact path='/student/:id' component={Student}/>  */}
                  <Route exact path='/login' component={SignUp}/> 
                  <Route exact path='/contact-us' component={Contactus}/> 
                  <Route exact path='/about-us' component={Student}/> 
                  <Route exact path='/about' component={Aboutus}/>
+                
+                 {/* <Route exact path='/dashboard/:id/studentPortal' component={Student}/>  */}
+                 {/* <Route exact path='/student' component={Student}/> */}
+                 <Route exact path='/admin/:id' component={Admin}/>
                  
-                 <Route exact path='/dashboard/:id/studentPortal' component={Student}/> 
-                 <Route exact path='/student' component={Student}/>
-                 <Route exact path='/admin' component={Admin}/>
              <Route exact path='/quiz' component={Quiz}/> 
              <Route exact path='/quizscore' component={Modelgen}/>
              <Route exact path='*' component={Errorfourzerofour}/> 

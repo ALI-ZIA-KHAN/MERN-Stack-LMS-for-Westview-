@@ -6,16 +6,22 @@ import React, {useEffect, useState } from 'react';
 import {Link} from "react-router-dom";
 import "../Navbar.css";
 
-function Student(props) {
+import Dashboard from "../Dashboard";
+
+function Student() {
   
+/**No need of student.jsx */
+/**All done with dashboard */
+
+
 
   return (
     <div>
        <div className = "portalBg"></div>
       <Navbar />
       <Link className = "banner" >WESTVIEW JUNIOR SCHOOL </Link>
-      <StudentPortal />
-      
+      {/* <StudentPortal /> */}
+      < Dashboard/>
     </div>
   )
 }

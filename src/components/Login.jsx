@@ -74,7 +74,7 @@ const [teachid,setTeachid]=useState([]);
 
 //for admin
 
-    axios.get('http://localhost:7781/users/').then(
+    axios.get('https://westviewlms.herokuapp.com/users/').then(
       (res)=>{
         console.log(res.data)
         setAdmname(
@@ -99,7 +99,7 @@ const [teachid,setTeachid]=useState([]);
 
 //for student
       
-    axios.get('http://localhost:7781/students/').then(
+    axios.get('https://westviewlms.herokuapp.com/students/').then(
       (res)=>{
         console.log(res.data)
         setStuname(
@@ -118,7 +118,7 @@ const [teachid,setTeachid]=useState([]);
 
 
 
-      axios.get('http://localhost:7781/teachers/').then(
+      axios.get('https://westviewlms.herokuapp.com/teachers/').then(
       (res)=>{
         console.log(res.data)
         setTeachname(

@@ -24,8 +24,8 @@ const contactSchema=new mongoose.Schema({
         minlength:2
     },
     contmsg:{
-        type:Number,
-        maxlength:2,
+        type:String,
+        minlength:10,
         required:true,
     }
 }

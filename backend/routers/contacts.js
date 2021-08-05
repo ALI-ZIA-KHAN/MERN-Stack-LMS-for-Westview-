@@ -26,18 +26,18 @@ router.route('/add').post((req,res)=>{
    
 
  const   contname=req.body.contname;
- const  contstatus=req.body.contstatus;
+ const   contstatus=req.body.contstatus;
  const   contemail=req.body.contemail;
- const  contcontact=req.body.contcontact;
- const    contmsg=req.body.contmsg;
+ const   contcontact=Number(req.body.contcontact);
+ const   contmsg=req.body.contmsg;
  
 
     const newCont= new Contact({
-        contname,
-     contstatus,
-    contemail,
-   contcontact,
-       contmsg
+      contname,
+      contstatus,
+      contemail,
+      contcontact,
+      contmsg
       })
     
       newCont.save()

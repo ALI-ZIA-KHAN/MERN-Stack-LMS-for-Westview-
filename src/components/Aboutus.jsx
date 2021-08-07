@@ -2,7 +2,7 @@ import React from 'react';
 import './Aboutus.css'
 import Navbar from "../components/Navbar";
 import "../components/Navbar.css";
-
+import Footer from '../components/Footer'
 import {Link} from "react-router-dom";
 
 function Aboutus(){
@@ -252,7 +252,7 @@ function Aboutus(){
 
 
 </div>
-
+<Footer/>
 </>
  );
 

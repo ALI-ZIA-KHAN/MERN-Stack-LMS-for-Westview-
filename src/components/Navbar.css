@@ -1,13 +1,13 @@
 .navbar {
-  /*background: linear-gradient(90deg, #43cea2, #185a9d);*/
+  /*background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);*/
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: relative;
+  position: sticky;
   top: 0;
-  z-index: 0;
+  z-index: 999;
 }
 
 .navbar-container {
@@ -18,8 +18,8 @@
   max-width: 1500px;
 }
 
-.navbar-logo {
-  color: #fff;
+/*.navbar-logo {
+  /*color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -27,16 +27,16 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-}
+}*/
 
-.fa-chalkboard-teacher {
+.fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
 }
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -60,26 +60,13 @@
   font-weight:bold;
 }
 
-
-
-.about-us {
-  color:#FF7A00;
-}
-
-.contact-us {
-  color:#799351;
-}
-
-.gallery {
-  color:#628395
-}
 .nav-links:hover {
   border-bottom: 4px solid #FFBE0F;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #fff;
+  color: black;
 }
 
 .nav-links-mobile {
@@ -88,27 +75,6 @@
 
 .menu-icon {
   display: none;
-}
-
-.bg {
-  position: relative; 
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bg::before {    
-    content: "";
-    background-image: url(https://www.freepik.com/free-vector/empty-classroom-interior-school-college-class_6993851.htm#page=1&query=school%20cartoon&position=28);
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
 }
 
 @media screen and (max-width: 960px) {
@@ -129,11 +95,12 @@
   }
 
   .nav-menu.active {
-    background: linear-gradient(90deg, #43cea2, #185a9d);;
+    /*background: #242222;*/
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    background:#fff;
   }
 
   .nav-links {
@@ -144,9 +111,11 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
+    /*background-color: #fff;
     color: #242424;
-    border-radius: 0;
+    border-radius: 0;*/
+    border-bottom: 4px solid #FFBE0F;
+    transition: all 0.2s ease-out;
   }
 
   .navbar-logo {
@@ -167,7 +136,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: black;
     font-size: 2rem;
   }
 
@@ -193,18 +162,16 @@
   }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Rye);
-
-
 
 .banner {
   position: absolute;
   left:300px;
-  top:-70px;
-  display: block;
+  top:-90px;
+  /*display: block;*/
+  display: flex;
   margin: 100px -200px;
-  width: 400px;
-  height: 60px;
+  /*width: 400px;
+  height: 60px;*/
   border: 1px solid #8a1;
   font: normal 30px/60px 'Rye';
   text-align: center;
@@ -213,6 +180,16 @@
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
       				0 6px 10px rgba(0,0,0,.15);
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+
+  /*justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  
+  font-size: 2rem;
+  display: flex;
+  align-items: center;*/
 }
 
 .banner::before,

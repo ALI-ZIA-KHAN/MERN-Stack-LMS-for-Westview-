@@ -7,6 +7,8 @@ import {NavLink} from 'react-router-dom';
 // import {Route,Switch,Router} from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import Quiz from "./components/Quiz";
+import Quizmath from './components/Quizmaths';
+import Quizeng from './components/Quizeng';
 import PortalPage from "./components/PortalPage.jsx"
 
 import Modelgen from './components/Modal';
@@ -15,6 +17,10 @@ import Admin from "./components/pages/Admin";
 import Contactus from "./components/Contactus";
 import Aboutus from "./components/Aboutus";
 import Errorfourzerofour from './components/Error';
+
+import NotesSection from "./components/NotesSection"
+
+import Uploadfile from './components/Pdfile';
 
 import StudentPortal from "./components/StudentPortal";
 
@@ -28,18 +34,35 @@ function App() {
                 <Switch>
                 <Route path="/" exact component = {Home} />
                 {/* <Route path="/sign-up" exact component = {SignUp} /> */}
-                 <Route exact path='/dashboard/:id' component={Dashboard}/>
+                 <Route exact path='/dashboard/:id' component={Student}/>
                 {/* <Route exact path='/student/:id' component={Student}/>  */}
                  <Route exact path='/login' component={SignUp}/> 
+
+
+                 <Route exact path='/sign-up' component={SignUp}/> 
+
                  <Route exact path='/contact-us' component={Contactus}/> 
-                 <Route exact path='/about-us' component={Student}/> 
-                 <Route exact path='/about' component={Aboutus}/>
+                 <Route exact path='/about-us' component={Aboutus}/> 
+                 {/* <Route exact path='/about' component={Aboutus}/> */}
+
+
+
+
+                 <Route exact path='/NotesSection' component={NotesSection}/>
+
+
                 
                  {/* <Route exact path='/dashboard/:id/studentPortal' component={Student}/>  */}
                  {/* <Route exact path='/student' component={Student}/> */}
                  <Route exact path='/admin/:id' component={Admin}/>
                  
              <Route exact path='/quiz' component={Quiz}/> 
+             <Route exact path='/quizmaths' component={Quizmath}/>
+             <Route exact path='/quizeng' component={Quizeng}/>
+
+
+             <Route exact path='/pdfpreview' component={Uploadfile}/>
+
              <Route exact path='/quizscore' component={Modelgen}/>
              <Route exact path='*' component={Errorfourzerofour}/> 
                 </Switch>

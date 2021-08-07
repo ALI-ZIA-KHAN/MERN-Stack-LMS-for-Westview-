@@ -4,6 +4,7 @@ import './Contactus.css';
 import Navbar from "../components/Navbar";
 import "../components/Navbar.css";
 import {Link} from "react-router-dom";
+import Footer from '../components/Footer'
 import axios from 'axios';
 
 function Contactus(){
@@ -91,7 +92,7 @@ const toCheck=()=>{
 
     <>
      <Navbar />
-     <Link className = "banner" >WESTVIEW JUNIOR SCHOOL </Link>
+     {/* <Link className = "banner" >WESTVIEW JUNIOR SCHOOL </Link> */}
       <div className ="container-fluid hello  ">
 
 <div className ="hello_con">
@@ -230,7 +231,7 @@ const toCheck=()=>{
   
   </div>
 
-
+<Footer/>
     </>
 
 

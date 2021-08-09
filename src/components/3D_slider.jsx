@@ -60,15 +60,15 @@ return(
 
 <div class="first_h_h">
       <h1 className="n_h">Evergreen Past</h1>
-      <p className="n_p">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+      <p className="n_p">Play Grow and Learn Together </p>
     </div>
     <div class="second_h_h">
       <h1 className="n_h">Lightning Present</h1>
-      <p className="n_p">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      <p className="n_p">Fairness is our top priorty when dealing with each of our student.</p>
     </div>
     <div class="third_h_h">
       <h1 className="n_h">Glorious Future</h1>
-      <p className="n_p">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+      <p className="n_p">Good professional  ethics are among a teacher's most important resources.</p>
     </div>
         </div>
     <div className="righty_i">

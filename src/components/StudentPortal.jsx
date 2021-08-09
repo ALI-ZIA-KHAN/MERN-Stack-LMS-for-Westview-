@@ -38,7 +38,7 @@ export default function StudentPortal(props) {
       <div className = "sections">
       <a href = "#MyCourses" >My Courses</a> 
       <a href = "#myActivities">My Activites</a>  
-      <a href = "/NotesSection">Personalise Notes</a>
+      <a href = "/NotesSection">Notes Section</a>
       
       </div>
       <div className="MyCourses">
@@ -296,7 +296,7 @@ export default function StudentPortal(props) {
          
           
           <div>
-           <a href="/pdfpreview"> <button style = {{zIndex:"3", marginTop:"-250px", marginLeft:"390px"}}  className = "btn" >View File</button></a>
+           <a href="/pdfpreview"> <button style = {{zIndex:"3", marginTop:"-230px", marginLeft:"430px"}}  className = "btn" >ADD</button></a>
           </div>
 </div>
 <div class="scallop-down"></div>

@@ -429,10 +429,10 @@ else if(role=""){
 
 
 <h1>Welcome to login Page</h1>
-<center>
 
-  <img height="400px" src="https://lh3.googleusercontent.com/proxy/BxCR_LIzFP97B0jrzmaCy7NtQsACjgFB4baK-cG6-FHd3uFAcRLSZthr7SWHf1_RZ_SMt_yfZrzZB2NbjeSpa8I" alt="" />
-</center>
+
+  <img height="400px" src="https://images.squarespace-cdn.com/content/v1/55e06d0ee4b0718764fcc921/1507805805238-M8XG4RMCMWITZ7LJGEEF/slidebank+login.gif" alt="" />
+{/* </center> */}
 
 
 

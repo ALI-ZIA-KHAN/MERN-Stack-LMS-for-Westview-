@@ -24,7 +24,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src="https://lh3.googleusercontent.com/proxy/dKqOEV7YUAomrfqCyZEcmrYiOVe9qG0S-uLZoi76i4wJBxBlZ25l-IekbZkirhUwKFkACPPEkUBbhlusBCTDpczCfhfFKvBHaW_4Ztbvgm1kRwsa9ObCnPk"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAC0B0PamT33AJthc8siW6yd9KAE5Q6tFpKeTR-MFf-Ph4gaOSIxTlsrw6jgnx291iuk4&usqp=CAU"
               text='Photography Contest'
               label='Register Now'
               /*path='/login'*/

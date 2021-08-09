@@ -165,7 +165,7 @@
 
 .banner {
   position: absolute;
-  left:300px;
+  left:250px;
   top:-90px;
   /*display: block;*/
   display: flex;

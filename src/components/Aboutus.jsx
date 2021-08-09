@@ -91,26 +91,26 @@ function Aboutus(){
     <ul class="faq-text">
       <li>
         <div class="question-arrow">
-          <span class="question">What do you mean by HTML & CSS?</span>
+          <span class="question">How can I access my portal?</span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloribus.</p>
+        <p>Click on Sign in button with credentials</p>
         <span class="line"></span>
       </li>
       <li>
         <div class="question-arrow">
-          <span class="question">What do you mean by JavaScript?</span>
+          <span class="question">Can I share my work publically?</span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive</p>
+        <p>Yes, you can upload any file in my activity section</p>
         <span class="line"></span>
       </li>
       <li>
         <div class="question-arrow">
-          <span class="question">From where you learned HTML & CSS?</span>
+          <span class="question">At what time I can apply for admissions?</span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, necessitatibus.</p>
+        <p>Our admissions starts around July every year</p>
         <span class="line"></span>
       </li>
       <li>

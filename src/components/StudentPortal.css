@@ -35,7 +35,7 @@ body {
 
 .portalBg {
   position: absolute; 
-  height: 310vh;
+  height: 340vh;
   width: 100%;
   display: flex;
   left:0px;
@@ -97,7 +97,7 @@ body {
 .sections { 
   text-align: center;
   top:450px;
-  left:365px;
+  left:315px;
   position:absolute;
   z-index: 1;
 }
@@ -117,7 +117,7 @@ body {
 
 .Avatar img {
   position: absolute;
-  left: 650px;
+  left: 600px;
   top: 100px;
   text-align: center;
   z-index: 1;
@@ -129,14 +129,14 @@ body {
 
 .Avatar h3 {
   position: absolute;
-  left: 630px;
+  left: 570px;
   top: 310px;
   z-index:1;
 }
 
 .Avatar h4 {
   position: absolute;
-  left: 700px;
+  left: 640px;
   top: 370px;
   z-index:1;
 }
@@ -155,7 +155,7 @@ body {
   z-index: 1;
   position: absolute;
   margin-top:200px;
-  margin-left:0px;
+  margin-left:80px;
   left:-250px;
   }
 
@@ -169,6 +169,7 @@ body {
   text-align: center;
   top:300px;
   position:absolute;
+  z-index: 1;
   
 }
 
@@ -181,6 +182,7 @@ body {
     5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
   border-radius: 15px;
   margin: 30px;
+  z-index: 1;
 }
 
 .container .card .box {
@@ -197,6 +199,7 @@ body {
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+  z-index: 1;
   
 }
 
@@ -347,7 +350,7 @@ body {
   width:700px;
   height: 600px;
   padding:5px;
-  left:750px;
+  left:650px;
   /*margin:10px;*/
 }
 
@@ -408,7 +411,7 @@ body {
 .divider {
   position:absolute;
   top:250px;
-  left:210px;
+  left:140px;
   
 }
 .divider h1 {
@@ -616,10 +619,10 @@ width:100px;
 
 
 .border img {
-  width: 1300px;
+  width: 1200px;
   height: 260px;
   padding: 5px;
-  left: 120px;
+  left: 80px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   top:4000px;
   position:absolute;
@@ -628,7 +631,7 @@ width:100px;
 
 
 
-.demo .hover14 figure::before {
+.demo .hover14 figure .border img::before {
 	position: absolute;
 	top: 0;
 	left: -75%;
@@ -642,7 +645,7 @@ width:100px;
 	-webkit-transform: skewX(-25deg);
 	transform: skewX(-25deg);
 }
-.demo .hover14 figure:hover::before {
+.demo .hover14 figure .border img:hover::before {
 	-webkit-animation: shine 2s;
 	animation: shine 2s;
 }
@@ -701,7 +704,7 @@ position:absolute;
   position:absolute;
   z-index:1;
   top:200px;
-  left:1000px;
+  left:900px;
   font-size: 1.8em;
   padding-right:100px;
   color:aquamarine;
@@ -1565,8 +1568,8 @@ header {
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  width:330%;
-  margin-left:-110%;
+  width:290%;
+  margin-left:-95%;
 }
 
 header h1 {

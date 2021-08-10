@@ -369,7 +369,7 @@ if(role=="admin"){
  // console.log(toSend.sending_name,toSend.sending_password)
 
  history.push({
-   pathname:  "/dashboard/"+_id,
+   pathname:  "/admin/"+_id,
    state: {
      response: toSend
    } 

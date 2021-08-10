@@ -6,7 +6,7 @@ const ThankYouComponent = () => {
         <>
             <p style={{ fontSize: '40px' }}>Call Ended. Thank You</p>
             <div style={{ textAlign: 'center' }}>
-                <Link to="/">Call Again</Link>
+                <Link to="/">Return to Home</Link>
             </div>
         </>
     );

@@ -1,0 +1,37 @@
+/* .App {
+    text-align: center;
+  } */
+  .fas {
+      padding-right: 10px;
+      padding-left: 10px;
+      cursor: pointer;
+  }
+  
+  .item-center {
+      text-align: center;
+  }
+  
+  .item-left {
+      text-align: left;
+  }
+  
+  .grey-color {
+      color: grey;
+  }
+  
+  .red-color {
+      color: red;
+  }
+  
+  .nav-bar {
+      background-color: #4a8ece;
+      height: 60px;
+      display: flex;
+  }
+  
+  .heading {
+      color: #fff;
+      padding-left: 10px;
+      font-weight: 600;
+  }
+  

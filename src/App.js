@@ -23,7 +23,8 @@ import NotesSection from "./components/NotesSection"
 import Uploadfile from './components/Pdfile';
 
 import StudentPortal from "./components/StudentPortal";
-
+import JitsiComponent from './components/jitsi.component';
+import ThankYouComponent from './components/thank-you.component';
 // import Login from '../components/Login';
 
 
@@ -45,8 +46,8 @@ function App() {
                  <Route exact path='/about-us' component={Aboutus}/> 
                  {/* <Route exact path='/about' component={Aboutus}/> */}
 
-
-
+                <Route exact path="/calling" component={JitsiComponent}/>
+                <Route exact path="/thank-you" component={ThankYouComponent}/>
 
                  <Route exact path='/NotesSection' component={NotesSection}/>
 
